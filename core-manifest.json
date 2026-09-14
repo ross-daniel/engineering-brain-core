@@ -1,0 +1,145 @@
+{
+  "schema_version": 1,
+  "managed_files": [
+    {
+      "source": ".claude/skills/capture-session/SKILL.md",
+      "destination": ".claude/skills/capture-session/SKILL.md"
+    },
+    {
+      "source": ".claude/skills/context-pack/SKILL.md",
+      "destination": ".claude/skills/context-pack/SKILL.md"
+    },
+    {
+      "source": ".claude/skills/implement-concept/SKILL.md",
+      "destination": ".claude/skills/implement-concept/SKILL.md"
+    },
+    {
+      "source": ".claude/skills/paper-to-implementation/SKILL.md",
+      "destination": ".claude/skills/paper-to-implementation/SKILL.md"
+    },
+    {
+      "source": ".claude/skills/process-inbox/SKILL.md",
+      "destination": ".claude/skills/process-inbox/SKILL.md"
+    },
+    {
+      "source": ".claude/skills/vault-lint/SKILL.md",
+      "destination": ".claude/skills/vault-lint/SKILL.md"
+    },
+    {
+      "source": ".claude/skills/vault-query/SKILL.md",
+      "destination": ".claude/skills/vault-query/SKILL.md"
+    },
+    {
+      "source": "91_Templates/Concept.md",
+      "destination": "91_Templates/Concept.md"
+    },
+    {
+      "source": "91_Templates/Conversation.md",
+      "destination": "91_Templates/Conversation.md"
+    },
+    {
+      "source": "91_Templates/Decision.md",
+      "destination": "91_Templates/Decision.md"
+    },
+    {
+      "source": "91_Templates/Experiment.md",
+      "destination": "91_Templates/Experiment.md"
+    },
+    {
+      "source": "91_Templates/Implementation.md",
+      "destination": "91_Templates/Implementation.md"
+    },
+    {
+      "source": "91_Templates/Map.md",
+      "destination": "91_Templates/Map.md"
+    },
+    {
+      "source": "91_Templates/Meeting.md",
+      "destination": "91_Templates/Meeting.md"
+    },
+    {
+      "source": "91_Templates/Paper.md",
+      "destination": "91_Templates/Paper.md"
+    },
+    {
+      "source": "91_Templates/Project.md",
+      "destination": "91_Templates/Project.md"
+    },
+    {
+      "source": "91_Templates/Resource.md",
+      "destination": "91_Templates/Resource.md"
+    },
+    {
+      "source": "91_Templates/Simulation.md",
+      "destination": "91_Templates/Simulation.md"
+    },
+    {
+      "source": "99_System/Core/CLAUDE-Core.md",
+      "destination": "99_System/Core/CLAUDE-Core.md"
+    },
+    {
+      "source": "99_System/Core/Core Sync.md",
+      "destination": "99_System/Core/Core Sync.md"
+    },
+    {
+      "source": "99_System/Core/External Repo CLAUDE Template.md",
+      "destination": "99_System/Core/External Repo CLAUDE Template.md"
+    },
+    {
+      "source": "99_System/Core/Ingestion Workflow.md",
+      "destination": "99_System/Core/Ingestion Workflow.md"
+    },
+    {
+      "source": "99_System/Core/Machine Setup-Core.md",
+      "destination": "99_System/Core/Machine Setup-Core.md"
+    },
+    {
+      "source": "99_System/Core/README-Core.md",
+      "destination": "99_System/Core/README-Core.md"
+    },
+    {
+      "source": "99_System/Core/Schema-Core.md",
+      "destination": "99_System/Core/Schema-Core.md"
+    },
+    {
+      "source": "99_System/Core/Skills/Skill Registry.md",
+      "destination": "99_System/Core/Skills/Skill Registry.md"
+    },
+    {
+      "source": "99_System/Core/Tag-Taxonomy-Core.md",
+      "destination": "99_System/Core/Tag-Taxonomy-Core.md"
+    },
+    {
+      "source": "99_System/Core/Zotero/Zotero Setup.md",
+      "destination": "99_System/Core/Zotero/Zotero Setup.md"
+    },
+    {
+      "source": "99_System/Scripts/bootstrap-local.sh",
+      "destination": "99_System/Scripts/bootstrap-local.sh",
+      "mode": "0755"
+    },
+    {
+      "source": "99_System/Scripts/refresh-zotero.py",
+      "destination": "99_System/Scripts/refresh-zotero.py",
+      "mode": "0755"
+    },
+    {
+      "source": "99_System/Scripts/update-brain-core.py",
+      "destination": "99_System/Scripts/update-brain-core.py",
+      "mode": "0755"
+    },
+    {
+      "source": "99_System/Scripts/update-brain-core.sh",
+      "destination": "99_System/Scripts/update-brain-core.sh",
+      "mode": "0755"
+    }
+  ],
+  "managed_fragments": [
+    {
+      "source": "99_System/Core/CLAUDE-Core.md",
+      "destination": "CLAUDE.md",
+      "start_marker": "<!-- BRAIN-CORE:CLAUDE:START -->",
+      "end_marker": "<!-- BRAIN-CORE:CLAUDE:END -->"
+    }
+  ]
+}
