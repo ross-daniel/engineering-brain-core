@@ -30,6 +30,10 @@
       "destination": ".claude/skills/vault-query/SKILL.md"
     },
     {
+      "source": ".claude/skills/sync-brain/SKILL.md",
+      "destination": ".claude/skills/sync-brain/SKILL.md"
+    },
+    {
       "source": "91_Templates/Concept.md",
       "destination": "91_Templates/Concept.md"
     },

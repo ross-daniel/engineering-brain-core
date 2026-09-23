@@ -39,3 +39,27 @@ Checks metadata/schema consistency, unresolved links, orphan notes, duplicates, 
 ## Domain-specific skills
 
 Add domain-specific skills only after repeated workflows justify them, e.g. `fem-implementation` or `hfss-documentation`. Notes can reference applicable skills in their `skills:` YAML property.
+
+## sync-brain
+
+Location:
+
+`.claude/skills/sync-brain/SKILL.md`
+
+Purpose:
+
+Perform a one-way comprehensive knowledge merge from another Engineering Brain
+into the current brain.
+
+Usage:
+
+`/sync-brain /absolute/path/to/Other-Brain`
+
+Preview:
+
+`/sync-brain /absolute/path/to/Other-Brain --dry-run`
+
+The source brain is read-only. The skill synchronizes canonical knowledge and
+archived source/evidence material while leaving vault-specific infrastructure,
+templates, Inbox queues, Zotero metadata exports, and project taxonomy under the
+control of the target brain.
