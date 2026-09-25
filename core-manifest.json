@@ -140,7 +140,7 @@
     {
       "source": ".claude/skills/find-evidence/SKILL.md", 
       "destination": ".claude/skills/find-evidence/SKILL.md"
-    },
+    }
   ],
   "managed_fragments": [
     {
