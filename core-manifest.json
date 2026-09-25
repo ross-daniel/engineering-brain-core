@@ -136,7 +136,11 @@
       "source": "99_System/Scripts/update-brain-core.sh",
       "destination": "99_System/Scripts/update-brain-core.sh",
       "mode": "0755"
-    }
+    },
+    {
+      "source": ".claude/skills/find-evidence/SKILL.md", 
+      "destination": ".claude/skills/find-evidence/SKILL.md"
+    },
   ],
   "managed_fragments": [
     {
