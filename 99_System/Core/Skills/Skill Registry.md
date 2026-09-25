@@ -40,6 +40,10 @@ Checks metadata/schema consistency, unresolved links, orphan notes, duplicates, 
 
 Add domain-specific skills only after repeated workflows justify them, e.g. `fem-implementation` or `hfss-documentation`. Notes can reference applicable skills in their `skills:` YAML property.
 
+## find-evidence
+
+- `/find-evidence` — Finds papers in the processed research brain that support a supplied sentence or claim, verifies the evidence against the source paper/PDF, returns the exact LaTeX `\cite{...}` argument, and, when Claude is running from or has access to an external writing project, creates or updates that project's `references.bib` using the canonical BibTeX entries from the brain's Zotero export.
+
 ## sync-brain
 
 Location:
